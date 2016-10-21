@@ -10,3 +10,5 @@
    result.to_csv导出结果为csv文件，路径需指定 
 7、凡是用到conn_mongo2的自定义py文件或包都要修改lmbdb = conn_mongo2.conn_mongo(host='127.0.0.1', port = 27017, db='lmbdb0928')这句中的参数值
 
+test
+
