@@ -9,3 +9,4 @@
    ：user_judge(modelpath, pct, days = 30)函数有三个参数（modelpath是bgModel_pickle.txt的路径；pct用来限制返回的用户是刷子的概率大小，例如pct = 0.9表示90%以上的概率；days限制多长时间的活跃用户，默认30天）；
    result.to_csv导出结果为csv文件，路径需指定 
 7、凡是用到conn_mongo2的自定义py文件或包都要修改lmbdb = conn_mongo2.conn_mongo(host='127.0.0.1', port = 27017, db='lmbdb0928')这句中的参数值
+
